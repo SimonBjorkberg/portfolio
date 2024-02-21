@@ -11,7 +11,7 @@ const Dino = () => {
                 <p className='mb-1 text-xl font-mono bg-black text-white w-fit p-1'>Game</p>
                 <p className='text-3xl bg-black text-white w-fit p-1'>Dino run</p>
             </div>
-            <img src={dinoImage} alt="test" className='rounded-sm object-cover w-full h-full hover:scale-105 transition-all duration-1000' />
+            <img src={dinoImage} alt='' className={`rounded-sm object-cover w-full h-full transition-all duration-1000 ${isHovered ? "scale-105" : "scale-100"}`}/>
         </div>
     )
 }

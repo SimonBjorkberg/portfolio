@@ -11,7 +11,7 @@ const Marketplace = () => {
                 <p className='mb-1 text-xl text-white bg-black w-fit p-1'>Web</p>
                 <p className='text-3xl text-white bg-black w-fit p-1'>Marketplace</p>
             </div>
-            <img src={marketplaceImage} alt='' className="rounded-sm object-cover w-full h-full hover:scale-105 transition-all duration-1000"/>
+            <img src={marketplaceImage} alt='' className={`rounded-sm object-cover w-full h-full transition-all duration-1000 ${isHovered ? "scale-105" : "scale-100"}`}/>
         </div>
     )
 }
