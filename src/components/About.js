@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
     return (
         <div className="text-white">
@@ -8,8 +10,10 @@ const About = () => {
                 </span>
                 <p className="text-sm font-sans">Available for work.</p>
             </div>
-            <p className="text-5xl max-w-[900px] my-16 leading-[80px] [word-spacing:-10px]">SIMON IS A FRONT-END DEVELOPER BORN, RAISED & BASED IN GOTHENBURG.</p>
-            <p className="px-4 bg-neutral-800 rounded-sm hover:cursor-pointer hover:bg-neutral-700 transition-all duration-500 mb-20 w-fit py-3">Info about Simon</p>
+            <p className="text-5xl max-w-[900px] my-16 leading-[80px] [word-spacing:-10px]">I AM A FRONT-END DEVELOPER BORN, RAISED & BASED IN GOTHENBURG.</p>
+            <Link to={"/info"}>
+                <p className="px-4 bg-neutral-800 rounded-sm hover:cursor-pointer hover:bg-neutral-700 transition-all duration-500 mb-20 w-fit py-3">Info about Simon</p>
+            </Link>
         </div>
     )
 }

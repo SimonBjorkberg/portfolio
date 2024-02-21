@@ -6,7 +6,7 @@ import Marketplace from "./Marketplace";
 const Projects = () => {
     return (
         <div>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 gap-3 mb-3">
                 <Forum />
                 <Klatterdomen />
                 <Marketplace />
