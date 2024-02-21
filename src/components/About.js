@@ -10,10 +10,10 @@ const About = () => {
                 </span>
                 <p className="text-sm font-sans">Available for work.</p>
             </div>
-            <p className="text-5xl max-w-[900px] my-16 leading-[80px] [word-spacing:-10px]">I AM A FRONT-END DEVELOPER BORN, RAISED & BASED IN GOTHENBURG.</p>
-            <Link to={"/info"}>
-                <p className="px-4 bg-neutral-800 rounded-sm hover:cursor-pointer hover:bg-neutral-700 transition-all duration-500 mb-20 w-fit py-3">Info about Simon</p>
-            </Link>
+            <p className="text-5xl max-w-[900px] my-16 leading-[50px] [word-spacing:-10px]">I AM A FRONT-END DEVELOPER BORN, RAISED & BASED IN GOTHENBURG.</p>
+
+            <div className="bg-neutral-800 rounded-sm hover:cursor-pointer hover:bg-neutral-700 transition-all duration-500 w-fit mb-20"><Link to={"/info"}><p className="px-4 py-3">Info about Simon</p></Link></div>
+
         </div>
     )
 }
