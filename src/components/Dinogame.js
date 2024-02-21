@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import dinoImage from '../images/dino.avif';
 import climbingImage from '../images/info.png'
 
 const Dino = () => {
