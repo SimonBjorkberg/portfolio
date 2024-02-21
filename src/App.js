@@ -4,9 +4,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import Info from './pages/Info';
+import ProjectPage from './pages/ProjectPage';
 
 const App = () => {
-
   return (
     <div className="App font-mono bg-neutral-900 min-h-screen">
       <Navbar />
@@ -14,6 +14,7 @@ const App = () => {
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/info' element={<Info />} />
+            <Route path='/project' element={<ProjectPage />} />
         </Routes>
       </div>
       <Footer />

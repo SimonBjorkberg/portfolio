@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import klatterdomenImage from '../images/kviberg.jpg';
+import data from '../data/data'
+import { useNavigate } from 'react-router-dom';
 
-const Klatterdomen = () => {
-
+const Klatterdomen = ({ setProject }) => {
     const [isHovered, setIsHovered] = useState(false)
+    const navigate = useNavigate()
 
     return (
-        <div className="col-span-2 h-[500px] opacity-80 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <div className="col-span-2 h-[500px] opacity-80 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onClick={() => {setProject(data.projects[1]); navigate('/project')}}>
             <div className="absolute bottom-0 left-0 ml-4 mb-3 z-10 text-white">
                 <p className='mb-1 text-xl text-white bg-black w-fit p-1'>Web</p>
                 <p className='text-3xl text-white bg-black w-fit p-1'>Klätterdomen</p>

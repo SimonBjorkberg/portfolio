@@ -2,11 +2,9 @@ import ProjectContainer from '../components/ProjectContainer'
 import infoImage from '../images/info.png'
 import { Link } from 'react-router-dom'
 
+import data from '../data/data'
+
 const Info = () => {
-
-    const technologies = ["React", "MongoDB", "Node.jS", "HBS", "Express", "JWT", "REST API", "Socket.IO", "SCSS", "TailwindCSS", "JavaScript", "CSS", "HTML", "Axios", "Mongoose", "Cloudinary"]
-
-    console.log(technologies)
 
     return (
         <div className="Info text-white font-sans">
@@ -26,17 +24,16 @@ const Info = () => {
             <div className='w-1/2 min-w-[700px] h-fit mt-16'>
                 <h1 className='text-2xl mb-4 text-neutral-400 font-light'>Documented competences</h1>
                 <div className='flex flex-wrap gap-2 w-full h-fit'>
-                    {technologies.map((tech) => {
+                    {data.technologoies.map((tech) => {
                         return <p className='px-1 border border-neutral-600 w-fit'>{tech}</p>
                     })}
                 </div>
             </div>
             <div className='mt-20 w-full'>
                 <h1 className='font-light text-2xl mb-4 text-neutral-400'>Projects</h1>
-                <ProjectContainer title={"Project 004 - Klätterdomen"} description={"A React web app created by me with the intention of getting better at TailwindCSS & SASS/SCSS while also experimenting with layouts."} timeFrame={"2023"} />
-                <ProjectContainer title={"Project 003 - E-commerce"} description={"A React web app created by me and two classmates with the intention of learning React, Stripe, Socket.IO TailwindCSS & continue refining backend technologies."} timeFrame={"2023"} />
-                <ProjectContainer title={"Project 002 - Forum"} description={"A Handlebars web app created by me and a classmate with the intention of learning backend technologies such as creating our own database, schemas & routes."} timeFrame={"2023"} />
-                <ProjectContainer title={"Project 001 - Dino Game"} description={"A game created by me and a classmate with the intention of learning JavaScript classes and it's uses, as well as canvas."} timeFrame={"2023"} />
+                {data.projects.map((project) => {
+                    return <ProjectContainer title={project.title} description={project.description} timeFrame={project.timeStamp} />
+                })}
             </div>
             <div className='mt-20'>
                 <h1 className='font-light text-2xl mb-4 text-neutral-400'>Experience</h1>
@@ -71,7 +68,7 @@ const Info = () => {
                     2023
                 </div>
             </div>
-            <div className='font-light font-mono border-b mb-5 border-neutral-700 flex justify-between h-fit'>
+            <div className='font-light font-mono mb-5 border-neutral-700 flex justify-between h-fit'>
                 <div className='flex flex-col justify-between w-full'>
                     <h1 className='text-2xl mb-4'>Thoren Innovation School</h1>
                     <p className='mb-4 w-1/2 min-w-[600px] text-neutral-400'>An innovative high-school with a focus on innovation, coming up with new ideas & solving problems in creative ways. This is where my programming journey started.</p>
