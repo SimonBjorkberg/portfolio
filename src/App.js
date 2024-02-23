@@ -4,17 +4,23 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import Info from './pages/Info';
-import ProjectPage from './pages/ProjectPage';
+import ForumPage from './pages/ForumPage';
+import KlatterdomenPage from './pages/KlatterdomenPage';
+import PortfolioPage from './pages/PortfolioPage';
+import MarketplacePage from './pages/MarketplacePage';
 
 const App = () => {
   return (
-    <div className="App font-mono bg-neutral-900 min-h-screen">
+    <div className="App bg-neutral-900 min-h-screen">
       <Navbar />
-      <div className='mx-auto w-[80%]'>
+      <div>
         <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/info' element={<Info />} />
-            <Route path='/project' element={<ProjectPage />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/info' element={<Info />} />
+          <Route path='/project/forum' element={<ForumPage />} />
+          <Route path='/project/klatterdomen' element={<KlatterdomenPage />} />
+          <Route path='/project/portfolio' element={<PortfolioPage />} />
+          <Route path='/project/marketplace' element={<MarketplacePage />} />
         </Routes>
       </div>
       <Footer />

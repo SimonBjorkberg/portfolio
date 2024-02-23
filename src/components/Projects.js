@@ -1,21 +1,17 @@
-import { useContext } from "react";
-import Dino from "./Portfolio";
+import Portfolio from "./Portfolio";
 import Forum from "./Forum";
 import Klatterdomen from "./Klatterdomen";
 import Marketplace from "./Marketplace";
-import { ProjectContext } from "../context/project.context";
 
 const Projects = () => {
 
-    const { setProject } = useContext(ProjectContext)
-
     return (
-        <div>
-            <div className="grid grid-cols-3 gap-3 mb-3">
-                <Forum setProject={setProject} />
-                <Klatterdomen setProject={setProject} />
-                <Marketplace setProject={setProject} />
-                <Dino setProject={setProject} />
+        <div className="mb-2">
+            <div className="2xl:grid 2xl:grid-cols-3 flex flex-col gap-2 2xl:flex-none font-mono">
+                <Forum />
+                <Klatterdomen />
+                <Portfolio />
+                <Marketplace />
             </div>
         </div>
     )
