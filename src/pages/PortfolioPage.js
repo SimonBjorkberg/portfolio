@@ -32,7 +32,7 @@ const PortfolioPage = () => {
                         <p className="font-light text-neutral-400">Links</p>
                         <div className="flex">
                             <Link className="hover:text-neutral-400 transition-all duration-200 mr-5" to={data.projects[0].githubLink} target='_blank' rel='noopener noreferrer'>Github</Link>
-                            <Link className="hover:text-neutral-400 transition-all duration-200" to={data.projects[0].deployLink} target='_blank' rel='noopener noreferrer'>Preview</Link>
+                            <Link className="hover:text-neutral-400 transition-all duration-200" to={"/"} target='_blank' rel='noopener noreferrer'>Preview</Link>
                         </div>
                     </div>
                 </div>
