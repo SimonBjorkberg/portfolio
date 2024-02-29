@@ -63,7 +63,7 @@ const Info = () => {
                 <div className='font-light border-b mb-5 border-neutral-700 flex lg:flex-row flex-col lg:justify-between h-fit'>
                     <div className='flex flex-col justify-between w-full'>
                         <h1 className='text-xl mb-4'>Ironhack Bootcamp</h1>
-                        <p className='lg:mb-4 mb-3 lg:w-1/2 md:min-w-[600px] text-neutral-400'>An intense 6 month fullstack JavaScript course with the prime goal of learning industry standard practices to be able to jump straight into the market.</p>
+                        <p className='lg:mb-4 mb-3 lg:w-1/2 md:min-w-[600px] text-neutral-400'>An intense 6 month fullstack JavaScript course with the prime goal of learning industry standard practices to be able to jump straight into the market as a front-end developer.</p>
                     </div>
                     <div className='my-auto lg:w-44 mb-4 lg:text-right text-neutral-400'>
                         2023
