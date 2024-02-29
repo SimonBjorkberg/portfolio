@@ -18,8 +18,8 @@ const Info = () => {
                 </p>
                 <div className='md:w-1/2 md:min-w-[700px] font-light'>
                     <h1 className="text-2xl md:max-w-[900px] mt-16 mb-4 text-neutral-400">Info</h1>
-                    <p className='mb-3'>I combine my love for problem solving with my education in innovation to create well functioning and user friendly web applications.</p>
-                    <p className='mb-3'>During my freetime you can expect to find me in the various climbing gyms around Gothenburg, or relaxing infront of my computer either playing games or learning new technologies related to front-end developing.</p>
+                    <p className='mb-3'>I combine my love for problem solving with my education in innovation to create well functioning, responsive and user friendly web applications.</p>
+                    <p className='mb-3'>During my freetime you can expect to find me in the various climbing gyms around Gothenburg, or infront of my computer either playing games or learning new technologies related to front-end developing.</p>
                     <p className='mb-3'>I consider myself a good teamplayer and do not break under pressure or in stressful situations, and I rarely give up when things get tough.</p>
                 </div>
                 <div className='md:w-1/2 md:min-w-[700px] h-fit mt-16'>
@@ -30,7 +30,12 @@ const Info = () => {
                         })}
                     </div>
                 </div>
-                <div className='mt-20 w-full'>
+                <div className='md:w-1/2 md:min-w-[700px] h-fit mt-8'>
+                    <Link to={"https://www.credential.net/3183e875-86ea-43f8-a500-e18d80bd2b51#gs.56m9xo"} target='_blank' rel='noopener noreferrer' >
+                        <h1 className='text-2xl mb-4 text-blue-400 font-light'>Ironhack Certificate</h1>
+                    </Link>
+                </div>
+                <div className='mt-16 w-full'>
                     <h1 className='font-light text-2xl mb-4 text-neutral-400'>Projects</h1>
                     {data.projects.map((project) => {
                         return <ProjectContainer title={project.title} description={project.description} timeFrame={project.timeStamp} />
@@ -63,7 +68,7 @@ const Info = () => {
                 <div className='font-light border-b mb-5 border-neutral-700 flex lg:flex-row flex-col lg:justify-between h-fit'>
                     <div className='flex flex-col justify-between w-full'>
                         <h1 className='text-xl mb-4'>Ironhack Bootcamp</h1>
-                        <p className='lg:mb-4 mb-3 lg:w-1/2 md:min-w-[600px] text-neutral-400'>An intense 6 month fullstack JavaScript course with the prime goal of learning industry standard practices to be able to jump straight into the market as a front-end developer.</p>
+                        <p className='lg:mb-4 mb-3 lg:w-1/2 md:min-w-[600px] text-neutral-400'>An intense 6 month Web Development Course with the prime goal of learning industry standard practices to be able to jump straight into the market as a front-end developer.</p>
                     </div>
                     <div className='my-auto lg:w-44 mb-4 lg:text-right text-neutral-400'>
                         2023
