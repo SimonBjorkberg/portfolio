@@ -8,10 +8,10 @@ const Projects = () => {
     return (
         <div className="mb-2">
             <div className="2xl:grid 2xl:grid-cols-3 flex flex-col gap-2 2xl:flex-none font-mono">
-                <Forum />
+                <Marketplace />
                 <Klatterdomen />
                 <Portfolio />
-                <Marketplace />
+                <Forum />
             </div>
         </div>
     )

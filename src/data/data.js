@@ -31,7 +31,7 @@ const data = {
         {
             id: "ecommerce",
             title: "Project 003 - E-Commerce",
-            description: "A React web app created by me and two classmates with the intention of learning React, Stripe, Socket.IO TailwindCSS & continue refining backend technologies.",
+            description: "A React web app created by me and two classmates with the intention of learning React, Stripe, Socket.IO TailwindCSS & continue refining frontend technologies.",
             timeStamp: "2023",
             picture: ecommerceImage,
             role: "Development, Design",
