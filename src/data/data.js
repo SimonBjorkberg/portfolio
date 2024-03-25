@@ -4,6 +4,7 @@ import ecommerceImage from '../images/marketplace.jpg'
 import forumImage from '../images/forum.png'
 import dinoImage from '../images/dino.avif'
 import pokeDexImage from '../images/pokeDex.png'
+import newForumImage from '../images/newForum.png'
 
 import portfolioRating from '../images/PortfolioRating.png'
 
@@ -27,7 +28,7 @@ const data = {
             title: "Project 005 - TypeScript Forum (WIP)",
             description: "A PC only forum that I made to learn the basics of TypeScript and Next.JS, Essentialy improved the first forum that I created during the Ironhack Bootcamp in addition to learning a lot about defining types",
             timeStamp: "2024",
-            picture: "",
+            picture: newForumImage,
             role: "Development, Design",
             year: "2024",
             githubLink: "https://github.com/SimonBjorkberg/typescript-forum-client",
