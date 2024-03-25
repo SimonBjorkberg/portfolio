@@ -15,7 +15,6 @@ code {
 html, body {
   margin: 0;
   padding: 0;
-
 }
 
 .x {
@@ -39,4 +38,8 @@ html, body {
 }
 .x:hover {
   color: rgba(255, 255, 255, 0.589);
+}
+
+.hide-overflow {
+  overflow: hidden;
 }

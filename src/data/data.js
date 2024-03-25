@@ -7,6 +7,8 @@ import pokeDexImage from '../images/pokeDex.png'
 import newForumImage from '../images/newForum.png'
 
 import dinoInfoOne from '../images/dinoInfoOne.png'
+import forumInfoOne from '../images/forumInfoOne.png'
+
 
 const data = {
     projects: [
@@ -83,6 +85,13 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/Project-2",
             deployLink: "",
             technologies: ["HBS", "Express", "Node.JS", "MongoDB", "JavaScript", "Axios", "Rest API", "TailwindCSS", "CSS", "HTML", "Mongoose", "Cloudinary"],
+            info: [
+                {
+                    image: forumInfoOne,
+                    title: "Creating an API",
+                    description: "",
+                }
+            ]
         },
         {
             id: "dinoGame",
