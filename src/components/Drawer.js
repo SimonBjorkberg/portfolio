@@ -3,8 +3,6 @@ import githubIcon from '../images/github-mark-white.png'
 
 const Drawer = ({ project, setX }) => {
 
-    console.log(project)
-
     return (
         <div className="h-full flex flex-col">
             <div className="w-full h-fit flex justify-end">
@@ -22,10 +20,9 @@ const Drawer = ({ project, setX }) => {
                 </div>
                 <div className="my-auto w-full mb-5">
                     {project?.info?.map((info, i) => {
-                        { console.log(info) }
                         return <div key={i} className="w-full">
                             <div className="overflow-hidden transition-all duration-1000 relative">
-                                <img src={info.image} className="rounded-sm md:h-[220px] h-[170px] object-cover object-left transition-all duration-1000 w-full" />
+                                <img src={info.image} alt="" className="rounded-sm md:h-[220px] h-[170px] object-cover object-left transition-all duration-1000 w-full" />
                             </div>
                             <p className="mt-5 md:w-2/3 md:mx-0 mx-5">{info.description}</p>
                         </div>

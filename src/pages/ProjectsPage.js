@@ -3,8 +3,6 @@ import data from "../data/data";
 import Drawer from "../components/Drawer";
 
 const ProjectsPage = () => {
-
-    const [isHovered, setIsHovered] = useState("")
     const [project, setProject] = useState({})
     const [show, setShow] = useState(false)
     const [x, setX] = useState(false)
@@ -29,7 +27,7 @@ const ProjectsPage = () => {
         <main className="md:w-[80%] mx-auto">
             <div className="grid gap-2 md:grid-cols-2 mb-2">
                 {data.projects.map((project, i) => {
-                    return <div key={i} className="2xl:h-[300px] md:h-[300px] h-[200px] opacity-70 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative" onMouseEnter={() => setIsHovered(project.title)} onMouseLeave={() => setIsHovered(false)} onClick={() => { setProject(project); setX(true) }}>
+                    return <div key={i} className="2xl:h-[300px] md:h-[300px] h-[200px] opacity-70 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative" onClick={() => { setProject(project); setX(true) }}>
                         <div className="absolute bottom-0 left-0 z-10 w-full text-black">
                             <p className='md:text-2xl text-md text-white bg-black p-1'>{project.title}</p>
                         </div>
