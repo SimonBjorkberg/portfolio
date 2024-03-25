@@ -38,7 +38,7 @@ const Info = () => {
                 <div className='mt-16 w-full'>
                     <h1 className='font-light text-2xl mb-4 text-neutral-400'>Projects</h1>
                     {data.projects.map((project) => {
-                        return <ProjectContainer title={project.title} description={project.description} timeFrame={project.timeStamp} />
+                        return <ProjectContainer title={project.title} description={project.description} year={project.year} />
                     })}
                 </div>
                 <div className='mt-20'>

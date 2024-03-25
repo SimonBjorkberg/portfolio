@@ -6,7 +6,7 @@ import dinoImage from '../images/dino.avif'
 import pokeDexImage from '../images/pokeDex.png'
 import newForumImage from '../images/newForum.png'
 
-import portfolioRating from '../images/PortfolioRating.png'
+import dinoInfoOne from '../images/dinoInfoOne.png'
 
 const data = {
     projects: [
@@ -21,12 +21,11 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/portfolio",
             deployLink: "",
             technologies: ["React", "TailwindCSS", "JavaScript", "HTML"],
-            lighthouseRating: portfolioRating,
         },
         {
             id: "newForum",
-            title: "Project 005 - TypeScript Forum (WIP)",
-            description: "A PC only forum that I made to learn the basics of TypeScript and Next.JS, Essentialy improved the first forum that I created during the Ironhack Bootcamp in addition to learning a lot about defining types",
+            title: "TypeScript Forum (WIP)",
+            description: "A PC only forum that I made to learn the basics of TypeScript and Next.JS, Essentialy improved the first forum that I created during the Ironhack Bootcamp in addition to learning a lot about defining types correctly.",
             timeStamp: "2024",
             picture: newForumImage,
             role: "Development, Design",
@@ -35,12 +34,11 @@ const data = {
             githubLinkTwo: "https://github.com/SimonBjorkberg/typescript-forum-server",
             deployLink: "",
             technologies: ["TypeScript", "JavaScript", "Next.JS", "Axios", "MongoDB", "JWT", "Express", "Rest API", "TailwindCSS", "Mongoose", "Node.JS"],
-            lighthouseRating: "",
         },
         {
             id: "pokemonApi",
-            title: "Project 006 - Pokedex (WIP)",
-            description: "A PC only Pokedex using the Pokemon API made in TypeScript, created this project to continue working with objects and these proved to be massive, Further improved my typescript capabilites with this project",
+            title: "Pokedex (WIP)",
+            description: "A PC only Pokedex using the Pokemon API made in TypeScript, created this project to continue working with objects and these proved to be massive, Further improved my TypeScript capabilites with this project.",
             timeStamp: "2024",
             picture: pokeDexImage,
             role: "Development, Design",
@@ -48,11 +46,10 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/pokemon-ts",
             deployLink: "",
             technologies: ["TypeScript", "JavaScript", "Next.JS", "Axios", "Rest API", "TailwindCSS"],
-            lighthouseRating: "",
         },
         {
             id: "klatterdomen",
-            title: "Project 004 - Klätterdomen",
+            title: "Klätterdomen",
             description: "A React web app created by me with the intention of getting better at TailwindCSS & SASS/SCSS while also experimenting with layouts.",
             timeStamp: "2023",
             picture: klatterdomenImage,
@@ -61,11 +58,10 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/Klatterdomen",
             deployLink: "",
             technologies: ["React", "TailwindCSS", "SCSS", "JavaScript", "HTML"],
-            lighthouseRating: "",
         },
         {
             id: "ecommerce",
-            title: "Project 003 - E-Commerce",
+            title: "E-Commerce",
             description: "A React web app created by me and two classmates with the intention of learning React, Stripe, Socket.IO TailwindCSS & continue refining frontend technologies.",
             timeStamp: "2023",
             picture: ecommerceImage,
@@ -78,7 +74,7 @@ const data = {
         },
         {
             id: "forum",
-            title: "Project 002 - Forum",
+            title: "Forum",
             description: "A Handlebars web app created by me and a classmate with the intention of learning backend technologies such as creating our own database, schemas & routes.",
             timeStamp: "2023",
             picture: forumImage,
@@ -87,11 +83,10 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/Project-2",
             deployLink: "",
             technologies: ["HBS", "Express", "Node.JS", "MongoDB", "JavaScript", "Axios", "Rest API", "TailwindCSS", "CSS", "HTML", "Mongoose", "Cloudinary"],
-            lighthouseRating: "",
         },
         {
             id: "dinoGame",
-            title: "Project 001 - Dino Game",
+            title: "Dino Game",
             description: "A game created by me and a classmate with the intention of learning JavaScript classes and it's uses, as well as canvas.",
             timeStamp: "2023",
             picture: dinoImage,
@@ -100,7 +95,13 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/IronhackProjectOne",
             deployLink: "",
             technologies: ["JavaScript", "CSS", "HTML"],
-            lighthouseRating: "",
+            info: [
+                {
+                    image: dinoInfoOne,
+                    title: "Using Classes",
+                    description: "It proved really difficult to work with classes the first time around, Being able to fully understand how everything worked in cohesion proved to be a very difficult but exciting challenge. Luke & I got to learn how methods within classes worked while experimenting heavily with the Canvas API, everything apart from the artwork was built from scratch & this was our first deep dive into building our own JavaScript projects. We quickly realised the importance of writing clean and readable code since it became messy way faster than we initially thought, this lead to a few refactors to clean everything up which provided us with a very important learning experience.",
+                }
+            ]
         },
     ],
     technologoies: ["React", "Next.JS", "TypeScript", "MongoDB", "Node.jS", "HBS", "Express", "JWT", "Rest API", "Socket.IO", "SCSS", "TailwindCSS", "JavaScript", "CSS", "HTML", "Axios", "Mongoose", "Cloudinary"],

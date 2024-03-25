@@ -15,7 +15,7 @@ const MarketplacePage = () => {
                 <h1 className="md:text-5xl text-3xl font-mono">{data.projects[4].title}</h1>
                 <p className="my-16 md:max-w-[400px] text-neutral-400">{data.projects[4].description}</p>
             </div>
-            <img src={data.projects[4].picture} alt='' className='rounded-sm object-cover w-full 2xl:h-[600px] md:h-[400px] h-[250px] transition-all duration-1000' />
+            <img src={data.projects[4].picture} alt='' className='rounded-sm border-y-2 py-5 border-neutral-800 object-cover w-full 2xl:h-[600px] md:h-[400px] h-[250px] transition-all duration-1000' />
             <div className="w-[80%] mx-auto">
                 <div className="my-16 flex flex-col md:flex-row justify-between">
                     <div className="flex">

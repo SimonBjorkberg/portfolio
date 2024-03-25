@@ -12,7 +12,7 @@ import ProjectsPage from './pages/ProjectsPage';
 
 const App = () => {
   return (
-    <div className="App bg-neutral-900 min-h-screen">
+    <div className="App bg-neutral-900 min-h-screen from-black via-black via-60% to-neutral-900 to-90% bg-gradient-to-t to-">
       <Navbar />
       <div>
         <Routes>

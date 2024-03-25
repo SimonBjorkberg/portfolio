@@ -4,8 +4,9 @@ import Projects from "../components/Projects";
 const Home = () => {
     return (
         <div className="mx-auto md:w-[80%]">
-            <About />
-            <Projects />
+                <About />
+                <Projects />
+
         </div>
     )
 }
