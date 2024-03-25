@@ -30,7 +30,8 @@ const ProjectsPage = () => {
         <main className="md:w-[80%] mx-auto">
             <div className="grid gap-2 md:grid-cols-2 mb-2">
                 {data.projects.map((project, i) => {
-                    return <div key={i} className="2xl:h-[300px] md:h-[300px] h-[200px] opacity-70 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative" onClick={() => { setProject(project); setX(true); setOpened(true) }}>
+                    return <div key={i} className="2xl:h-[300px] md:h-[300px] h-[200px] opacity-70 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative" 
+                    onClick={() => { setProject(project); setX(true); setOpened(true) }}>
                         <div className="absolute bottom-2 left-2 z-10 w-fit text-black">
                             <p className='md:text-2xl text-md text-white bg-black p-1'>{project.title}</p>
                         </div>
