@@ -23,6 +23,13 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/portfolio",
             deployLink: "",
             technologies: ["React", "TailwindCSS", "JavaScript", "HTML"],
+            info: [
+                {
+                    image: forumInfoOne,
+                    title: "A Fun Playground",
+                    description: "This is a space where I can store all of my projects and experiences to show to the world, I try to experiment with animations & layouts here as much as I can while trying to stay true to the mobile first approach. Mobile first is something that I try to do as often as I can but sometimes I overlook it to focus on the more important aspects that I'm actively trying to learn, currently TypeScript.",
+                }
+            ]
         },
         {
             id: "newForum",
@@ -36,6 +43,13 @@ const data = {
             githubLinkTwo: "https://github.com/SimonBjorkberg/typescript-forum-server",
             deployLink: "",
             technologies: ["TypeScript", "JavaScript", "Next.JS", "Axios", "MongoDB", "JWT", "Express", "Rest API", "TailwindCSS", "Mongoose", "Node.JS"],
+            info: [
+                {
+                    image: forumInfoOne,
+                    title: "Introduction: TypeScript - So many Errors",
+                    description: "The second TypeScript/Next.JS application that I created on my own and it was supposed to be an improvement of the first forum application I created with Achref, I created this parallel to the Pokedex application to get some variety in addition to getting to work with a bit of back-end technologies again. The front-end is purely made in TypeScript whereas the back-end is written in JavaScript & I did ofcourse stumble upon a few issues with types here aswell but the more I experimented & researched the easier it became in a very short amount of time.",
+                }
+            ]
         },
         {
             id: "pokemonApi",
@@ -48,6 +62,13 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/pokemon-ts",
             deployLink: "",
             technologies: ["TypeScript", "JavaScript", "Next.JS", "Axios", "Rest API", "TailwindCSS"],
+            info: [
+                {
+                    image: forumInfoOne,
+                    title: "Introduction: TypeScript - So many Errors",
+                    description: "My very first attempt at creating a TypeScript/Next.JS application and this was quite the journey. At the beginning there was a ridicilous amount of frustration due to my lack of knowledge when it came to TypeScript and the way that it defines types and I lost count of the amount of errors I encountered. It took a few attempts to understand how interfaces worked & how to satisfy useStates to make sure that the types were right across the board but I'm very thankful to myself for learning TypeScript because I know that I save a lot of time by using it.",
+                }
+            ]
         },
         {
             id: "klatterdomen",
@@ -60,6 +81,13 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/Klatterdomen",
             deployLink: "",
             technologies: ["React", "TailwindCSS", "SCSS", "JavaScript", "HTML"],
+            info: [
+                {
+                    image: forumInfoOne,
+                    title: "TailwindCSS",
+                    description: "This was a fun little side project that I begun working on during our 1 week break between project 2 & project 3 during my time at Ironhack. I had just started working with the colossal world of CSS and more importantly TailwindCSS which has become a tool that I use all the time. I had no real goal in mind for this project other than having a good time while trying to learn how to use TailwindCSS efficiently, and what better way than to improve my climbing gym's website. I got introduced to some CSS libraries and some new concepts and while I copy pasted some of the modals/accordions at the time I can now look back and realise that I can do better custom ones myself in no time at all.",
+                }
+            ]
         },
         {
             id: "ecommerce",
@@ -72,7 +100,13 @@ const data = {
             githubLink: "https://github.com/SimonBjorkberg/project-3-client",
             deployLink: "",
             technologies: ["React", "TailwindCSS", "JavaScript", "HTML", "MongoDB", "Node.JS", "Express", "JWT", "Rest API", "Socket.IO", "Axios", "Mongoose", "Cloudinary"],
-            lighthouseRating: "",
+            info: [
+                {
+                    image: forumInfoOne,
+                    title: "Git Push --force",
+                    description: "The Third and final project during my time at Ironhack, a React application which turned out to be very ambitious. Me and 2 other classmates were put into a group with the end goal of creating a fullstack React web application & after many hours of discussions we ended up deciding to create an E-commerce website. The biggest challenge that we encountered during this project was the ambition of the project itself combined with a lack of communication & leadership. It made me realise how important a good leader is and what a difference it can make when working on larger projects where you need to divide the work. I was however very glad that the ability to code was at this point the least of my worries.",
+                }
+            ]
         },
         {
             id: "forum",
@@ -89,7 +123,7 @@ const data = {
                 {
                     image: forumInfoOne,
                     title: "Creating an API",
-                    description: "",
+                    description: "The second project that was part of the Ironhack curriculum was meant to be a Handlebars application, The reason for this was purely to learn the relation between front-end and back-end in addition to version control using GIT. We got to create our own server-side routing which was incredibly messy if you were to compare it to the easiness of React/Next.JS. It was however an excellent way to learn how to build our own API, define models for our Mongo database & create routes for our own server. This was built by Achref and I, although it wasn't perfect we managed to cover our main goal and some more which was to create a fully functioning CRUD forum application.",
                 }
             ]
         },
@@ -107,7 +141,7 @@ const data = {
             info: [
                 {
                     image: dinoInfoOne,
-                    title: "Using Classes",
+                    title: "Class Madness",
                     description: "It proved really difficult to work with classes the first time around, Being able to fully understand how everything worked in cohesion proved to be a very difficult but exciting challenge. Luke & I got to learn how methods within classes worked while experimenting heavily with the Canvas API, everything apart from the artwork was built from scratch & this was our first deep dive into building our own JavaScript projects. We quickly realised the importance of writing clean and readable code since it became messy way faster than we initially thought, this lead to a few refactors to clean everything up which provided us with a very important learning experience.",
                 }
             ]

@@ -21,6 +21,7 @@ const Drawer = ({ project, setX, setOpened }) => {
                 <div className="w-full mt-10">
                     {project?.info?.map((info, i) => {
                         return <div key={i} className="w-full">
+                            <h1 className="text-[20px] mb-5">{info.title}</h1>
                             <div className="overflow-hidden transition-all duration-1000 relative">
                                 <img src={info.image} alt="" className="rounded-sm md:h-[220px] h-[170px] object-cover object-left transition-all duration-1000 w-full" />
                             </div>
