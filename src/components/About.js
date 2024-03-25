@@ -11,9 +11,10 @@ const About = () => {
                 <p className="text-sm">Available for work.</p>
             </div>
             <p className="text-2xl font-mono max-w-[900px] my-16 md:leading-[50px] md:text-5xl md:[word-spacing:-10px]">I'M A FRONT-END DEVELOPER BORN, RAISED & BASED IN GOTHENBURG.</p>
-
-            <div className="bg-neutral-800 rounded-sm hover:cursor-pointer hover:bg-neutral-700 transition-all duration-500 w-fit mb-20"><Link to={"/info"}><p className="px-4 py-3">Info about Simon</p></Link></div>
-
+            <div className="flex mb-2 justify-between">
+                <Link to={"/info"} className="bg-neutral-800 hover:cursor-pointer hover:bg-neutral-700 transition-all duration-500 w-fit px-4 py-3">Info About Simon</Link>
+                <Link to={"/projects"} className="hover:cursor-pointer transition-all duration-500 w-fit px-4 py-3 x">All Projects</Link>
+            </div>
         </div>
     )
 }

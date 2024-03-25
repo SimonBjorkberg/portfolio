@@ -8,6 +8,7 @@ import ForumPage from './pages/ForumPage';
 import KlatterdomenPage from './pages/KlatterdomenPage';
 import PortfolioPage from './pages/PortfolioPage';
 import MarketplacePage from './pages/MarketplacePage';
+import ProjectsPage from './pages/ProjectsPage';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/project/klatterdomen' element={<KlatterdomenPage />} />
           <Route path='/project/portfolio' element={<PortfolioPage />} />
           <Route path='/project/marketplace' element={<MarketplacePage />} />
+          <Route path='/projects' element={<ProjectsPage />} />
         </Routes>
       </div>
       <Footer />

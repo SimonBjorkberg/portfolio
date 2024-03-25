@@ -8,7 +8,13 @@ const Navbar = () => {
     return (
         <>
             {
-                sLocation === "/" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]"></nav>
+                sLocation === "/" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                    <div className="flex my-auto text-white">
+                        <p to={"/"} className="text-neutral-400">
+                            Home
+                        </p>
+                    </div>
+                </nav>
             }
             {
                 sLocation === "/info" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
@@ -28,7 +34,7 @@ const Navbar = () => {
                             Home
                         </Link>
                         <p className="ml-3">/</p>
-                        <p className="ml-3 text-neutral-400">Project-003</p>
+                        <p className="ml-3 text-neutral-400">E-Commerce</p>
                     </div>
                 </nav>
             }
@@ -61,7 +67,18 @@ const Navbar = () => {
                             Home
                         </Link>
                         <p className="ml-3">/</p>
-                        <p className="ml-3 text-neutral-400">Project-002</p>
+                        <p className="ml-3 text-neutral-400">TypeScript Forum</p>
+                    </div>
+                </nav>
+            }
+            {
+                sLocation === "/projects" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                    <div className="flex my-auto text-white">
+                        <Link to={"/"} className="text-white">
+                            Home
+                        </Link>
+                        <p className="ml-3">/</p>
+                        <p className="ml-3 text-neutral-400">Projects</p>
                     </div>
                 </nav>
             }
