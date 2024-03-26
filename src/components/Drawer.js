@@ -6,7 +6,7 @@ const Drawer = ({ project, setX, setOpened }) => {
     return (
         <div className="h-full flex flex-col">
             <div className="w-full h-fit flex justify-end">
-                <p className="text-white mr-5 my-2 hover:cursor-pointer w-fit h-fit self-end" onClick={() => { setX(false); setOpened(false) }}>x</p>
+                <p className="text-white px-5 pt-2 pb-3 hover:cursor-pointer w-fit h-fit self-end transition-all z" onClick={() => { setX(false); setOpened(false) }}>x</p>
             </div>
             <div autoFocus className="h-full md:mx-10 px-3 mb-10 overflow-y-auto overscroll-none flex flex-col text-white">
                 <p className="text-[4vw] md:text-[2vw] mb-2 h-fit w-fit">{project.title}</p>
@@ -30,8 +30,9 @@ const Drawer = ({ project, setX, setOpened }) => {
                     })}
 
                 </div>
-                <div className="flex py-10">
-                    <Link to={`${project.githubLink}`} target='_blank' rel='noopener noreferrer' className="w-8 rounded-full hover:bg-neutral-700"><img src={githubIcon} alt="" /></Link>
+                <div className="flex my-10 flex-row justify-between bg-black px-4 py-3 h-20 rounded-md">
+                    <Link to={`${project.githubLink}`} target='_blank' rel='noopener noreferrer' className="w-8 my-auto rounded-full transition-all duration-500 hover:bg-[#009dff]"><img src={githubIcon} alt="" /></Link>
+                    {project.deployLink !== "" && <Link to={`${project.deployLink}`} className="hover:cursor-pointer transition-all w-fit h-fit my-auto px-4 py-3 y">Preview</Link>}
                 </div>
             </div>
         </div>

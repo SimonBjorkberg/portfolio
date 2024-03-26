@@ -26,7 +26,7 @@ const data = {
             role: "Development, Design",
             year: "2024",
             githubLink: "https://github.com/SimonBjorkberg/portfolio",
-            deployLink: "",
+            deployLink: "https://orange-sky-0961efa03.4.azurestaticapps.net/",
             technologies: ["React", "TailwindCSS", "JavaScript", "HTML"],
             info: [
                 {
@@ -46,7 +46,7 @@ const data = {
             year: "2024",
             githubLink: "https://github.com/SimonBjorkberg/typescript-forum-client",
             githubLinkTwo: "https://github.com/SimonBjorkberg/typescript-forum-server",
-            deployLink: "",
+            deployLink: "https://typescript-forum-client.vercel.app",
             technologies: ["TypeScript", "JavaScript", "Next.JS", "Axios", "MongoDB", "JWT", "Express", "Rest API", "TailwindCSS", "Mongoose", "Node.JS"],
             info: [
                 {
@@ -65,7 +65,7 @@ const data = {
             role: "Development, Design",
             year: "2024",
             githubLink: "https://github.com/SimonBjorkberg/pokemon-ts",
-            deployLink: "",
+            deployLink: "https://pokemon-ts-psi.vercel.app/",
             technologies: ["TypeScript", "JavaScript", "Next.JS", "Axios", "Rest API", "TailwindCSS"],
             info: [
                 {
@@ -84,7 +84,7 @@ const data = {
             role: "Development, Design",
             year: "2023",
             githubLink: "https://github.com/SimonBjorkberg/Klatterdomen",
-            deployLink: "",
+            deployLink: "https://zealous-sand-0a82c4103.4.azurestaticapps.net/",
             technologies: ["React", "TailwindCSS", "SCSS", "JavaScript", "HTML"],
             info: [
                 {
@@ -103,7 +103,7 @@ const data = {
             role: "Development, Design",
             year: "2023",
             githubLink: "https://github.com/SimonBjorkberg/project-3-client",
-            deployLink: "",
+            deployLink: "https://dapper-kelpie-a71f03.netlify.app/",
             technologies: ["React", "TailwindCSS", "JavaScript", "HTML", "MongoDB", "Node.JS", "Express", "JWT", "Rest API", "Socket.IO", "Axios", "Mongoose", "Cloudinary"],
             info: [
                 {

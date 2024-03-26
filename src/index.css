@@ -40,6 +40,48 @@ html, body {
   color: rgba(255, 255, 255, 0.589);
 }
 
+.y {
+  position: relative;
+  transition: all 1s;
+}
+.y:after {
+  content: "\203A";
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 30px;
+  height: fit-content;
+  transition: all 1s;
+}
+
+.y:hover:after {
+  color: rgb(0, 157, 255);
+  right: -10px;
+  transition: all 1s;
+}
+.y:hover {
+  color: #009dff;
+}
+
+.z {
+  position: relative;
+}
+.z:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  background: rgb(0, 157, 255, 1);
+  transition: all 0.5s;
+  z-index: -1;
+}
+.z:hover:before {
+  transform: scale(1);
+}
+
 .hide-overflow {
   overflow: hidden;
 }
