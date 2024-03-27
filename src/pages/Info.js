@@ -7,7 +7,7 @@ import data from '../data/data'
 const Info = () => {
 
     return (
-        <div className="Info text-white mx-auto w-full lg:w-[80%]">
+        <div className="Info text-white mx-auto w-full lg:w-[80%] relative">
             <img src={infoImage} className='object-cover w-full md:h-[500px]' alt='' />
             <div className='w-[95%] lg:w-full mx-auto'>
                 <p className="text-sm font-light">

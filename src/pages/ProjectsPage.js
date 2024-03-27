@@ -27,8 +27,8 @@ const ProjectsPage = () => {
     }, [x])
 
     return (
-        <main className="md:w-[80%] mx-auto">
-            <div className="grid gap-2 md:grid-cols-2 mb-2">
+        <main className="md:w-[80%] mx-auto relative">
+            <div className="2xl:grid 2xl:grid-cols-2 flex flex-col gap-2 2xl:flex-none font-mono mb-2">
                 {data.projects.map((project, i) => {
                     return <div key={i} className="2xl:h-[300px] md:h-[300px] h-[200px] opacity-70 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative" 
                     onClick={() => { setProject(project); setX(true); setOpened(true) }}>
@@ -39,7 +39,7 @@ const ProjectsPage = () => {
                     </div>
                 })}
             </div>
-            <div className={`top-0 h-screen bg-neutral-950 left-0 opacity-95 transition-all duration-1000 z-10 ${x ? "md:w-2/3 w-full fixed" : "w-0 fixed"}`}>
+            <div className={`top-0 h-screen bg-neutral-950 left-0 opacity-95 transition-all duration-1000 z-10 ${x ? "2xl:w-2/3 w-full fixed" : "w-0 fixed"}`}>
                 {<div className="h-full">
                     {show && <Drawer project={project} setX={setX} setShow={setShow} x={x} setOpened={setOpened} />}
                 </div>}

@@ -3,7 +3,7 @@ import Projects from "../components/Projects";
 
 const Home = () => {
     return (
-        <div className="mx-auto md:w-[80%]">
+        <div className="mx-auto md:w-[80%] relative">
                 <About />
                 <Projects />
 

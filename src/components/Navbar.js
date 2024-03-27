@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             {
-                sLocation === "/" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                sLocation === "/" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%] relative">
                     <div className="flex my-auto text-white">
                         <p to={"/"} className="text-neutral-400">
                             Home
@@ -17,7 +17,7 @@ const Navbar = () => {
                 </nav>
             }
             {
-                sLocation === "/info" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                sLocation === "/info" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%] relative">
                     <div className="flex my-auto text-white">
                         <Link to={"/"} className="text-white">
                             Home
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </nav>
             }
             {
-                sLocation === "/project/marketplace" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                sLocation === "/project/marketplace" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%] relative">
                     <div className="flex my-auto text-white">
                         <Link to={"/"} className="text-white">
                             Home
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </nav>
             }
             {
-                sLocation === "/project/klatterdomen" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                sLocation === "/project/klatterdomen" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%] relative">
                     <div className="flex my-auto text-white">
                         <Link to={"/"} className="text-white">
                             Home
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </nav>
             }
             {
-                sLocation === "/project/portfolio" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                sLocation === "/project/portfolio" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%] relative">
                     <div className="flex my-auto text-white">
                         <Link to={"/"} className="text-white">
                             Home
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </nav>
             }
             {
-                sLocation === "/project/forum" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                sLocation === "/project/forum" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%] relative">
                     <div className="flex my-auto text-white">
                         <Link to={"/"} className="text-white">
                             Home
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </nav>
             }
             {
-                sLocation === "/projects" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%]">
+                sLocation === "/projects" && <nav className="mx-auto flex font-mono pb-16 pl-3 pt-2 md:pt-0 md:pl-0 md:h-32 md:pb-0 md:w-[80%] relative">
                     <div className="flex my-auto text-white">
                         <Link to={"/"} className="text-white">
                             Home

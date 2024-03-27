@@ -10,7 +10,7 @@ const KlatterdomenPage = () => {
     }, [])
 
     return (
-        <div className="text-white">
+        <div className="text-white relative">
             <div className="md:w-[80%] w-[95%] mx-auto">
                 <h1 className="md:text-5xl text-3xl font-mono">{data.projects[3].title}</h1>
                 <p className="my-16 md:max-w-[400px] text-neutral-400">{data.projects[3].description}</p>

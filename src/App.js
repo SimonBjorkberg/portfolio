@@ -12,7 +12,16 @@ import ProjectsPage from './pages/ProjectsPage';
 
 const App = () => {
   return (
-    <div className="App bg-neutral-950 from-black via-black via-80% to-neutral-900 to-90% bg-gradient-to-t bg-dot-grid">
+    <div className="App bg-neutral-950 overflow-hidden bg-dot-grid">
+      <div className='gradient-bg'>
+        <div className='gradients-container'>
+          <div className='g1'></div>
+          <div className='g2'></div>
+          <div className='g3'></div>
+          <div className='g4'></div>
+          <div className='g5'></div>
+        </div>
+      </div>
       <Navbar />
       <div>
         <Routes>

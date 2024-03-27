@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="text-white mx-auto w-full md:w-full">
+        <div className="text-white mx-auto w-full md:w-full relative">
             <div className="flex items-center gap-2 mx-2 md:mx-0">
                 <span className="relative flex h-2 w-2">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-90"></span>
