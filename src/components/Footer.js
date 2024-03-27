@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="2xl:h-24 h-16 w-full border-t border-neutral-500">
+        <div className="2xl:h-24 h-16 w-full bg-black opacity-60">
             <div className="w-[80%] h-full mx-auto font-light text-sm justify-between flex text-neutral-300">
                 <p className="h-fit my-auto">Simon Björkberg © 2024</p>
                 <div className="flex my-auto">
